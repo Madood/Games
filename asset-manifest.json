@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Games/static/css/main.3f725a3d.css",
+    "main.js": "/Games/static/js/main.2c7a7827.js",
+    "static/media/BMI.webp": "/Games/static/media/BMI.1c832e0435a3176715ee.webp",
+    "static/media/bush.png": "/Games/static/media/bush.9e2c86c15496282887bd.png",
+    "static/media/dice-6.png": "/Games/static/media/dice-6.9a5031cda18f03d9830d.png",
+    "static/media/Paper.jpg": "/Games/static/media/Paper.6e65cda957cd95f4787e.jpg",
+    "static/media/dice-3.png": "/Games/static/media/dice-3.32af3349417e8927bcba.png",
+    "static/media/sudoko.jpg": "/Games/static/media/sudoko.289dca483db0d754e96c.jpg",
+    "static/media/snake.jpg": "/Games/static/media/snake.c310d09fe8674d7ed877.jpg",
+    "static/media/dice-5.png": "/Games/static/media/dice-5.84d9dc31b5efbbcd4ef1.png",
+    "static/media/dice.jpg": "/Games/static/media/dice.208c404c5221286f7ec6.jpg",
+    "static/media/dinosaur.png": "/Games/static/media/dinosaur.4e67b55b3bde213a460b.png",
+    "static/media/dice-4.png": "/Games/static/media/dice-4.fd45f9691d8ab5d726cf.png",
+    "static/media/dice-2.png": "/Games/static/media/dice-2.4024839019c486542914.png",
+    "static/media/tictac.avif": "/Games/static/media/tictac.95e4f0389b45ffeaf20b.avif",
+    "static/media/Profile.jpg": "/Games/static/media/Profile.38142c437e3dfc59865c.jpg",
+    "static/media/dice-1.png": "/Games/static/media/dice-1.d599e52432b13fcb9ea1.png",
+    "index.html": "/Games/index.html",
+    "main.3f725a3d.css.map": "/Games/static/css/main.3f725a3d.css.map",
+    "main.2c7a7827.js.map": "/Games/static/js/main.2c7a7827.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f725a3d.css",
+    "static/js/main.2c7a7827.js"
+  ]
+}
