@@ -1,0 +1,58 @@
+/* Player.css */
+.rolling_container {
+  display:flex;
+  flex-direction: row;
+   margin: 10%;
+}
+
+.player1 {
+
+  flex: 1; /* This makes player1 take up half of the available space */
+  text-align: center; /* To center the content horizontally */
+}
+
+.player2 {
+  flex: 1; /* This makes player2 take up half of the available space */
+  text-align: center; /* To center the content horizontally */
+}
+
+/* Style for the player's name */
+h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Style for the dice result image */
+img {
+  width: 300px;
+  height: 300px;
+  margin-top: 10px;
+  display: block; /* Ensure the images are displayed as blocks for proper alignment */
+  margin: 0 auto; /* Center the images horizontally within their containers */
+}
+
+/* Style for the roll button */
+.result {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.title{
+        margin-top: 15%;
+        color: #FF9494;
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.title span{
+        color:#8785A2;
+}
+
+/* Add more styles as needed */

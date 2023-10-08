@@ -1,0 +1,71 @@
+.container{
+        text-align: center;
+        border: 1px solid black;
+}
+
+
+.option{
+        width: 250px;
+        height: 60px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        border-radius: 50px;
+        background-color: #8785A2;
+        font-size: 16px;
+        color: white;
+        margin-top: 05px;
+        margin-left: 5px;
+        margin-bottom: 50px; 
+}
+
+.option:hover{
+         color: #FF9494;
+        border: 1px solid grey; 
+}
+
+.reset{
+        width: 150px;
+        height: 60px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        border-radius: 50px;
+        background-color: #8785A2;
+        font-size: 16px;
+        color: #FF9494;
+        margin-top: 25px;
+        margin-bottom: 50px;
+}
+
+.reset:hover{
+        color: aliceblue;
+        border: 1px solid grey;
+}
+.tictac_board{
+        height: 600px;
+        width:564px;
+        display: flex;
+        margin: auto;
+        flex-wrap: wrap;
+}
+.boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 180px;
+  width: 180px;
+  background: #F6F6F6;
+  border: 4px solid #F2D1D1;
+  font-size: 48px; /* Adjust the font size for X and O icons */
+}
+
+/* Customize X and O icons */
+.boxes .MuiSvgIcon-root {
+  font-size: 100px;
+  color: #FF9494; /* X color */
+}
+
+.boxes .MuiSvgIcon-root.circle {
+  color: #8785A2; /* Circle color */
+}

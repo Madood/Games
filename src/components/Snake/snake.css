@@ -1,0 +1,53 @@
+
+.snake_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+
+
+/* Game board style */
+.game-board {
+  display: grid;
+  grid-template-columns: repeat(20, 20px);
+  gap: 1px;
+  border: 1px solid #333;
+  margin-top: 10px;
+}
+
+/* Box style (grid cells) */
+.box {
+  width: 20px;
+  height: 20px;
+  border: 1px solid lightgrey;
+  background-color: #fff;
+}
+
+/* Snake segment style */
+.snake {
+  background-color: #00cc00; /* Green */
+}
+
+/* Food style */
+.food {
+  background-color: #ff0000; /* Red */
+}
+
+/* Score display style */
+.score {
+ text-align: center;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+/* Game over style */
+.game-over {
+  font-size: 24px;
+  margin-top: 10px;
+  color: #ff0000; /* Red */
+}
+

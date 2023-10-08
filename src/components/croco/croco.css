@@ -1,0 +1,125 @@
+/* DinosaurGame.css */
+
+.dinosaur-game-container {
+  position: relative;
+  width: 800px; /* Adjust the width as needed */
+  height: 300px; /* Adjust the height as needed */
+  margin: 0 auto;
+  background-color: #F2D1D1;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.game-over {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+}
+
+.dinosaur {
+  position: absolute;
+  bottom: calc(4% - 50px);; /* Adjust to match the height of the dinosaur */
+  left: calc(10% - 50px); /*Adjust to center the dinosaur */
+  width: 100px;
+  height: 150px;
+}
+
+.ground{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 4px; /* Adjust the height as needed */
+  background-color: #999; /* Ground color */
+  border: none;
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+}
+
+
+.dinosaur.jump {
+  animation: jump-animation 0.5s ease;
+}
+
+@keyframes jump-animation {
+  0% {
+    transform: translateY(-100);
+  }
+  100% {
+    transform: translateY(-50px); /* Adjust the jump height as needed */
+  }
+}
+
+.hurdle {
+  position: absolute;
+  bottom: 0;
+  width: 40px; /* Adjust the width as needed */
+  height: 60px; /* Adjust the height as needed */
+ /* Hurdle color */
+}
+
+.game-over {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  color: #ff0000;
+}
+
+.reset-button {
+  position: absolute;
+  top: calc(100% + 10px); /* Place below the <hr> ground */
+  left: 50%;
+  transform: translateX(-50%); /* Center horizontally */
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

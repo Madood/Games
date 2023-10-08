@@ -1,0 +1,22 @@
+.tictac_board{
+        height: 600px;
+        width:564px;
+        display: flex;
+        margin: auto;
+        flex-wrap: wrap;
+}
+.boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 180px;
+  background: #F6F6F6;
+  border: 4px solid #F2D1D1;
+  font-size: 48px; /* Adjust the font size for X and O icons */
+}
+
+.picture{
+    height: 200px;
+  width: 180px;     
+}
